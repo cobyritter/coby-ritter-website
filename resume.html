@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Coby Ritter | Resume</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <style>
+      body {
+        background: linear-gradient(180deg, #f4f7fb 0%, #eef5ff 100%);
+      }
+
+      .page-shell {
+        max-width: 960px;
+        margin: 3rem auto 5rem;
+        background: rgba(255, 255, 255, 0.9);
+        border: 1px solid rgba(13, 59, 102, 0.12);
+        border-radius: 28px;
+        box-shadow: 0 20px 45px rgba(13, 59, 102, 0.1);
+        padding: 2.5rem;
+      }
+
+      .doc-header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 1rem;
+        border-bottom: 1px solid rgba(13, 59, 102, 0.12);
+        padding-bottom: 1.5rem;
+        margin-bottom: 2rem;
+      }
+
+      .doc-header h1 {
+        margin: 0;
+        color: var(--primary-dark);
+        font-size: clamp(2rem, 4vw, 2.8rem);
+      }
+
+      .doc-header a {
+        color: var(--primary);
+        font-weight: 700;
+      }
+
+      .section-block {
+        margin-bottom: 2rem;
+      }
+
+      .section-block h2 {
+        margin: 0 0 0.8rem;
+        font-size: 1.15rem;
+        letter-spacing: 0.08em;
+        text-transform: uppercase;
+        color: var(--primary);
+      }
+
+      .resume-content {
+        color: var(--muted);
+        line-height: 1.7;
+      }
+
+      .resume-content p,
+      .resume-content li {
+        margin: 0.3rem 0;
+      }
+
+      .resume-content ul {
+        margin: 0.6rem 0 0;
+        padding-left: 1.2rem;
+      }
+
+      @media (max-width: 700px) {
+        .page-shell {
+          margin: 1.25rem;
+          padding: 1.25rem;
+        }
+
+        .doc-header {
+          flex-direction: column;
+          align-items: flex-start;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="page-shell">
+      <header class="doc-header">
+        <h1>Coby Ritter</h1>
+        <a href="index.html">← Back to home</a>
+      </header>
+
+      <main class="resume-content">
+        <section class="section-block">
+          <h2>Summary</h2>
+          <p>
+            Finance and Real Estate student at the University of Wisconsin–Madison with a
+            strong interest in investment banking, capital markets, and strategic advisory.
+            Motivated by problem-solving, communication, and learning how businesses make
+            decisions that shape growth and opportunity.
+          </p>
+        </section>
+
+        <section class="section-block">
+          <h2>Education</h2>
+          <p><strong>University of Wisconsin–Madison</strong></p>
+          <p>Bachelor of Business Administration</p>
+          <p>Finance, Investment &amp; Banking | Real Estate &amp; Urban Land Economics</p>
+          <p>GPA: 4.00/4.00</p>
+        </section>
+
+        <section class="section-block">
+          <h2>Experience</h2>
+          <p><strong>Town &amp; Country Move Management</strong> — Summer Moving Assistant</p>
+          <ul>
+            <li>Supported residential moves with a high-touch, client-centered approach.</li>
+            <li>Helped clients navigate major life transitions with organization and empathy.</li>
+            <li>Developed communication, composure, and service skills in fast-paced settings.</li>
+          </ul>
+
+          <p><strong>Investment Banking Club</strong> — Selected Member</p>
+          <ul>
+            <li>Explored investment banking trends, deal processes, and industry developments.</li>
+            <li>Built knowledge in valuation, networking, and professional preparation.</li>
+          </ul>
+        </section>
+
+        <section class="section-block">
+          <h2>Skills</h2>
+          <ul>
+            <li>Financial analysis and market research</li>
+            <li>Strategic thinking and problem solving</li>
+            <li>Communication and stakeholder engagement</li>
+            <li>Adaptability and ownership in fast-moving environments</li>
+          </ul>
+        </section>
+      </main>
+    </div>
+  </body>
+</html>
